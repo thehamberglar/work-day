@@ -8,3 +8,4 @@ var output = d.getFullYear() + '/' +
     (month<10 ? '0' : '') + month + '/' +
     (day<10 ? '0' : '') + day;
     
+//change box color depenging on time

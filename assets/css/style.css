@@ -70,3 +70,8 @@ body {
     transition: all .3s ease-in-out;
   }
   
+  .hour p {
+    margin-top: 30px;
+  }
+
+ 
