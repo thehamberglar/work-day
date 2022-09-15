@@ -4,7 +4,7 @@ body {
     line-height: 1;
   }
   
-  textarea{
+  .textarea{
     background: transparent;
     border: none;
     resize: none;
@@ -71,7 +71,12 @@ body {
   }
   
   .hour p {
-    margin-top: 30px;
+    margin: 0 auto;
+    padding-top: 4vw;
   }
+
+.description {
+  color: black;
+}
 
  
