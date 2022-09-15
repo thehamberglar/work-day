@@ -1,18 +1,9 @@
-//set date
-//var d = new Date();
-
-//var month = d.getMonth()+1;
-//var day = d.getDate();
-
-//var output = d.getFullYear() + '/' +
-    //(month<10 ? '0' : '') + month + '/' +
-    //(day<10 ? '0' : '') + day;
-
+//setting/updating current date and time
 $(document).ready(function(){
     setInterval(function () {
         $("#currentDay").text(moment().format("MMMM Do YYYY, h:mm:ss a")) 
     }, 0, 1000);
-//change box color depenging on time
+//saving information inside of the descpiption box
 $(".saveBtn").on("click", function() {
     var text = $(this).siblings(".description").val();
     var time = $(this).parent().attr("id");
@@ -30,7 +21,7 @@ $("#hour14 .description").val(localStorage.getItem("hour14"));
 $("#hour15 .description").val(localStorage.getItem("hour15"));
 $("#hour16 .description").val(localStorage.getItem("hour16"));
 $("#hour17 .description").val(localStorage.getItem("hour17"));
-
+//adding a past, present, or future class attribute to each box
 function theHour () {
     var thisHour = moment().hour();
     console.log(thisHour);
