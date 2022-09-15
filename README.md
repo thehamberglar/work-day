@@ -26,4 +26,6 @@ it shows past hours in grey, present in red, and future in green. When text is s
 
 ##Links:
 https://github.com/thehamberglar/work-day
+https://thehamberglar.github.io/work-day/
 
+![Screenshot 2022-09-15 180601](https://user-images.githubusercontent.com/55839753/190523810-1c056c77-73a2-41a7-9263-4cd80bb6507f.png)
