@@ -1,11 +1,11 @@
 ## work-day (3rd party api's)
 
-##User Story
+#User Story
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 
-##Acceptance Criteria
+#Acceptance Criteria
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
@@ -20,7 +20,7 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
-##Description
+#Description
 This is an application used for scheduling events planned throughout the buisness day (8-5)
 it shows past hours in grey, present in red, and future in green. When text is saved in a box, it stays even after the application is refreshed.
 
