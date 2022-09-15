@@ -25,4 +25,5 @@ This is an application used for scheduling events planned throughout the buisnes
 it shows past hours in grey, present in red, and future in green. When text is saved in a box, it stays even after the application is refreshed.
 
 ##Links:
+https://github.com/thehamberglar/work-day
 
